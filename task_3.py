@@ -1,3 +1,2 @@
 num = int(input("Введите ваше число: "))
-result = num + num**2 + num**3
-print(result)
+print(num + int(str(num) * 2) + int(str(num) * 3))

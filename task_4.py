@@ -2,6 +2,8 @@ revenue = int(input("Введите выручку фирмы: "))
 expenses = int(input("Введите издержки фирмы: "))
 if revenue > expenses:
     print("Финансовый результат - прибыль.")
+elif revenue == expenses:
+    print("Вы ничего не заработали.")
 else:
     print("Финансовый результат - убыток.")
 
